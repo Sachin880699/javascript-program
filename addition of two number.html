@@ -1,0 +1,17 @@
+<input type ='text' id='first'><br>
+<input type = 'text' id='second'></br>
+<button onclick="my()">Click</button>
+
+<p id ='demo'></p>
+
+<script>
+
+function my(){
+var first_number = parseInt(document.getElementById("first").value);
+var second_number = parseInt(document.getElementById("second").value);
+
+document.getElementById('demo').innerHTML = first_number+second_number;
+
+}
+
+</script>
